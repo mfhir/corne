@@ -33,6 +33,20 @@
             key-positions = <11 23 35>;
             layers = <0>;
         };
+
+        jakup {
+            bindings = <&jakup>;
+            key-positions = <0 12 24>;
+        };
+    };
+
+    macros {
+        jakup: jakup {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESCAPE>;
+            label = "JAKUP";
+        };
     };
 
     keymap {
