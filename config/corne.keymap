@@ -62,33 +62,9 @@
             layers = <4>;
         };
 
-        game2 {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <2 38 1 3>;
-            layers = <4>;
-        };
-
         game3 {
             bindings = <&kp NUMBER_3>;
             key-positions = <38 3 2>;
-            layers = <4>;
-        };
-
-        game4 {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <38 13 14>;
-            layers = <4>;
-        };
-
-        game5 {
-            bindings = <&kp NUMBER_5>;
-            key-positions = <38 13 14 15>;
-            layers = <4>;
-        };
-
-        game6 {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <38 14 15>;
             layers = <4>;
         };
     };
@@ -98,8 +74,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press &kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>,
-                <&macro_release &kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>;
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>;
 
             label = "JAKUP";
             wait-ms = <10>;
