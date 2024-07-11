@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -73,9 +74,11 @@
         jakup: jakup {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = 
-                <&macro_press &kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>, 
-                <&macro_release &kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp ESC>;
 
             label = "JAKUP";
             wait-ms = <10>;
@@ -135,7 +138,7 @@
 
         func {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4        &kp F5     &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4        &kp F5     &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &bt BT_CLR_ALL
 &trans  &trans  &trans  &trans  &kp CAPSLOCK  &kp F11    &kp F12  &trans  &trans  &trans  &trans   &trans
 &trans  &trans  &trans  &trans  &trans        &trans     &trans   &trans  &trans  &trans  &trans   &trans
                         &trans  &trans        &trans     &trans   &trans  &trans
