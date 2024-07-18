@@ -34,6 +34,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <36 41>;
         };
+
+        to_game_layer {
+            bindings = <&to 4>;
+            key-positions = <38 17>;
+        };
+
+        to_default_layer {
+            bindings = <&to 0>;
+            key-positions = <38 16>;
+        };
     };
 
     keymap {
@@ -93,6 +103,15 @@
 &trans  &trans  &trans  &trans  &kp CAPSLOCK  &kp F11    &kp F12  &trans  &trans  &trans  &trans   &trans
 &trans  &trans  &trans  &trans  &trans        &trans     &trans   &trans  &trans  &trans  &trans   &trans
                         &trans  &trans        &trans     &trans   &trans  &trans
+            >;
+        };
+
+        game_layer {
+            bindings = <
+&kp ESC    &kp Q  &kp W  &kp E     &kp R      &kp T     &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp A  &kp S  &kp D     &kp F      &kp G     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V      &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp LALT  &kp SPACE  &trans    &trans  &trans  &trans
             >;
         };
     };
