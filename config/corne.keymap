@@ -46,6 +46,19 @@
         };
     };
 
+    macros {
+        raise3_workspace_1: layer3_workspace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp NUMBER_1>,
+                <&macro_release>;
+
+            label = "LAYER3_WORKSPACE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -99,10 +112,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &raise3_workspace_1  &kp N2  &kp N3  &kp N4  &kp N5    &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &kp N6               &kp N7  &kp N8  &kp N9  &kp N0    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans               &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
+                                     &trans  &trans  &trans    &trans    &trans    &trans
             >;
         };
 
