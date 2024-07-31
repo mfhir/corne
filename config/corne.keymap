@@ -53,9 +53,118 @@
             bindings =
                 <&macro_press>,
                 <&kp LEFT_GUI &kp NUMBER_1>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_GUI &kp NUMBER_1>;
 
             label = "LAYER3_WORKSPACE";
+        };
+
+        raise3_workspace_2: raise3_workspace_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp NUMBER_2>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp NUMBER_2>;
+
+            label = "RAISE3_WORKSPACE_2";
+        };
+
+        raise3_workspace_3: raise3_workspace_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp NUMBER_3>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp NUMBER_3>;
+
+            label = "RAISE3_WORKSPACE_3";
+        };
+
+        raise3_workspace_4: raise3_workspace_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp NUMBER_4>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp NUMBER_4>;
+
+            label = "RAISE3_WORKSPACE_4";
+        };
+
+        raise3_workspace_5: raise3_workspace_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp N5>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp N5>;
+
+            label = "RAISE3_WORKSPACE_5";
+        };
+
+        raise3_workspace_6: raise3_workspace_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp NUMBER_6>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp NUMBER_6>;
+
+            label = "RAISE3_WORKSPACE_6";
+        };
+
+        raise3_workspace_7: raise3_workspace_7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp N7>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp N7>;
+
+            label = "RAISE3_WORKSPACE_7";
+        };
+
+        raise3_workspace_8: raise3_workspace_8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp N8>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp N8>;
+
+            label = "RAISE3_WORKSPACE_8";
+        };
+
+        raise3_workspace_9: raise3_workspace_9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp N9>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp N9>;
+
+            label = "RAISE3_WORKSPACE_9";
+        };
+
+        raise3_workspace_0: raise3_workspace_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp N0>,
+                <&macro_release>,
+                <&kp LEFT_GUI &kp N0>;
+
+            label = "RAISE3_WORKSPACE_0";
         };
     };
 
