@@ -52,9 +52,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp NUMBER_1>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp NUMBER_1>;
+                <&kp NUMBER_1 &kp LEFT_GUI>;
 
             label = "LAYER3_WORKSPACE";
         };
@@ -64,9 +64,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp NUMBER_2>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp NUMBER_2>;
+                <&kp NUMBER_2 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_2";
         };
@@ -76,9 +76,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp NUMBER_3>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp NUMBER_3>;
+                <&kp NUMBER_3 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_3";
         };
@@ -88,9 +88,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp NUMBER_4>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp NUMBER_4>;
+                <&kp NUMBER_4 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_4";
         };
@@ -100,9 +100,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp N5>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp N5>;
+                <&kp N5 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_5";
         };
@@ -112,9 +112,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp NUMBER_6>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp NUMBER_6>;
+                <&kp NUMBER_6 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_6";
         };
@@ -124,9 +124,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp N7>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp N7>;
+                <&kp N7 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_7";
         };
@@ -136,9 +136,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp N8>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp N8>;
+                <&kp N8 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_8";
         };
@@ -148,9 +148,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp N9>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp N9>;
+                <&kp N9 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_9";
         };
@@ -160,9 +160,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_GUI &kp N0>,
+                <&kp LEFT_GUI>,
                 <&macro_release>,
-                <&kp LEFT_GUI &kp N0>;
+                <&kp N0 &kp LEFT_GUI>;
 
             label = "RAISE3_WORKSPACE_0";
         };
