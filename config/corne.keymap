@@ -44,6 +44,24 @@
             bindings = <&to 0>;
             key-positions = <38 16>;
         };
+
+        game_map {
+            bindings = <&kp M>;
+            key-positions = <17 29>;
+            layers = <1>;
+        };
+
+        game_capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <26 27>;
+            layers = <1>;
+        };
+
+        game_n {
+            bindings = <&kp N>;
+            key-positions = <28 29>;
+            layers = <1>;
+        };
     };
 
     macros {
